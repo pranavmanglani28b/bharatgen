@@ -12,7 +12,7 @@ st.write(
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
 # via `st.secrets`, see https://docs.streamlit.io/develop/concepts/connections/secrets-management
-openai_api_key = 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
+openai_api_key = "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"
 if not openai_api_key:
     st.info("Please add your OpenAI API key to continue.", icon="🗝️")
 else:
